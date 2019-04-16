@@ -25,12 +25,12 @@ public class TreeNomal extends TreeParent implements TreeCompile<TreeNomal>{
     }
 
     @Override
-    public Tree get(int index) {
+    public TreeNomal get(int index) {
         return null;
     }
 
     @Override
-    public List getChildren(Tree tree) {
+    public List getChildren(TreeNomal tree) {
         return null;
     }
 
@@ -40,7 +40,7 @@ public class TreeNomal extends TreeParent implements TreeCompile<TreeNomal>{
     }
 
     @Override
-    public Tree getRoot() {
+    public TreeNomal getRoot() {
         return null;
     }
 
